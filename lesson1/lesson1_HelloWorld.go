@@ -1,12 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	// "mylib"
+)
 
 /*
 main()よりも先に実行される特別な関数
 初期設定などで使われる
 */
 func init() {
+	// mylib.Average(1)
 	fmt.Println("Init!")
 }
 
